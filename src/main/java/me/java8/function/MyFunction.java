@@ -1,4 +1,4 @@
-package me.function;
+package me.java8.function;
 
 /**
  * author will

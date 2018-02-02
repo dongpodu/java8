@@ -1,4 +1,4 @@
-package me.java8time;
+package me.java8.time;
 
 import java.util.ArrayList;
 import java.util.List;
