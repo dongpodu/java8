@@ -1,0 +1,1 @@
+package me.java8.function;import java.util.function.BiFunction;/** * biFunction使用场景：传递两个参数，返回一个参数 */public class TestBiFunction {    public static void main(String[] args) {        BiFunction<Integer, Integer, Integer> f1 = (x, y) -> x * y;        System.out.println(f1.apply(3, 4));    }}
