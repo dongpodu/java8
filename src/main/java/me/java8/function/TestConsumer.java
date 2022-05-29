@@ -1,0 +1,1 @@
+package me.java8.function;import java.util.function.Consumer;/** * Supplier使用场景：传递一个参数，不返回任何参数 */public class TestConsumer {    public static void main(String[] args) {        Consumer<Integer> f1 = System.out::println;        f1.accept(10);    }}

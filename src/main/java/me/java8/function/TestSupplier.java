@@ -1,0 +1,1 @@
+package me.java8.function;import java.util.function.Supplier;/** * Supplier使用场景：不传递任何参数，返回一个参数 */public class TestSupplier {    public static void main(String[] args) {        Supplier<Integer> f1 = () -> 20;        System.out.println(f1.get());    }}
